@@ -37,7 +37,8 @@ The development of the Chatbot application followed a systematic approach, invol
 Thorough Planning: Planning and design helped anticipate challenges and devise appropriate solutions.
 
 Continuous Testing: Regular testing throughout development helped identify and address issues early.
+
 Community Resources: Leveraging online forums and documentation provided valuable insights and solutions.
-Last bits of context
-The most important file is app.py. Go there to see the prompt for the AI phone agent. Everything else enables the visual interface (the form) so that you can interact with our API.
+
+
 
