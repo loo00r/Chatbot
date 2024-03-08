@@ -35,7 +35,7 @@ The development of the Chatbot application followed a systematic approach, invol
 
 
 Thorough Planning: Planning and design helped anticipate challenges and devise appropriate solutions.
-Collaboration: Effective communication and collaboration between frontend and backend developers facilitated problem-solving.
+
 Continuous Testing: Regular testing throughout development helped identify and address issues early.
 Community Resources: Leveraging online forums and documentation provided valuable insights and solutions.
 Last bits of context
