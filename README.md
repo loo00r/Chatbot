@@ -12,7 +12,7 @@ Start the React application by running `npm start`
 
 Open your python readable terminal and Navigate to your project directory and navigate to your backend by typing `cd backend`.
 Create a Virtual Environment: Navigate to your project directory in the command prompt or terminal and run the following command to create a virtual environment named "venv": `python -m venv venv`.
-Activate virtual env by typing `.\venv\Scripts\activate`.
+Open your python readable terminal and Navigate to your project directory and navigate to your backend by typing `cd backend`.
 Next, to run your server, type `flask run --port=3000` into your terminal. Your server should start running on port 3000.
 
 ## Main Chatbot logic
