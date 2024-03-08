@@ -44,12 +44,3 @@ Community Resources: Leveraging online forums and documentation provided valuabl
 Last bits of context
 The most important file is app.py. Go there to see the prompt for the AI phone agent. Everything else enables the visual interface (the form) so that you can interact with our API.
 
-Frontend setup
-Navigate to your project directory in the terminal.
-Start the React application by running npm start
-
-Backend setup
-Open your python readable terminal and Navigate to your project directory and navigate to your backend by typing cd backend.
-All libraries was pre-installled for Flask server, you just need to activate virtual env by typing .\venv\Scripts\activate.
-Next, to run your server, type flask run --port=3000 into your terminal. Your server should start running on port 3000.
-0 comments on commit a292884
