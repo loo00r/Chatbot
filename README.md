@@ -33,9 +33,6 @@ Rendering: Renders the chat history, input field for new messages, and a button 
 
 The development of the Chatbot application followed a systematic approach, involving the following steps:
 
-Requirement Analysis: Understanding the application's requirements, functionalities, and features.
-@@ -18,17 +42,5 @@ Overcoming Challenges:
-To overcome these challenges, various strategies were employed:
 
 Thorough Planning: Planning and design helped anticipate challenges and devise appropriate solutions.
 Collaboration: Effective communication and collaboration between frontend and backend developers facilitated problem-solving.
