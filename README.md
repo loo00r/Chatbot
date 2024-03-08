@@ -5,7 +5,7 @@
 
 # Frontend setup
 
-Open your terminal and type `npm install` to install all your dependencies.
+Open navigate to your project directory your terminal and type `npm install` to install all your dependencies.
 Start the React application by running `npm start`
 
 # Backend setup
