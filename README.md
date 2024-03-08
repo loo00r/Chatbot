@@ -1,5 +1,4 @@
-Chatbot Application Overview
-Approach:
+
 # Chatbot Application Overview
 
 
