@@ -15,7 +15,7 @@ Open your python readable terminal and Navigate to your project directory and na
 
 Activate virtual env by typing `.\venv\Scripts\activate`.
 
-Now that the virtual environment is activated, you can install Flask and any other dependencies. Run: `pip install flask`  `pip install requests` `pip install flask-cors`
+Now that the virtual environment is activated, you can install Flask and other libraries. Run: `pip install flask`  `pip install requests` `pip install flask-cors`
 
 
 Next, to run your server, type `flask run --port=3000` into your terminal. Your server should start running on port 3000.
