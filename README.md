@@ -1,46 +1,29 @@
-# Chatbot Application Overview
+<h1>ChattyBot - [A Chat Bot Messenger]</h1>
+Chat anything with a bot on a IOS 10 texting like interface. This application has a standalone React JS client and standalone REST Python Flask server. 
+<br>
 
+The chatbot was built using <a href='https://github.com/gunthercox/ChatterBot'> ChatterBot. </a><br>
 
+Developed by <strong> Vaibhav Malhotra </strong>
 
-# Frontend setup
+<strong>Email: </strong> vbvmalhotra@gmail.com <br/>
 
-Navigate to your project directory in the terminal.
-Start the React application by running `npm start`
+<h2>Run the project</h2>
+<strong>Prerequisite: Make sure that you have python 3.6 with pip and Node JS with NPM installed in your system.
+ </strong>
+<br>
+The following steps will let you download and run the project locally: 
 
-# Backend setup
+1. Open up a terminal and clone the repository using  `git clone https://github.com/vmal/chatterBot.git`.
+2. `cd` into the cloned dir and `cd` again into Client Dir.
+3. Type `npm start` to run the Client Server. Your default browser should open up with the client running at `locahost:3000`
+4. Open another instance of terminal and this time `cd` into Server Dir.
+5. Run the following command to install the python dependencies `pip install -r requirements.txt`
+6. After the installation run `flask run` to start up the Flask server which should be running on `localhost:5000`.
+7. You can now successfully chat with a bot using the REACT JS app!
 
-Open your python readable terminal and Navigate to your project directory and navigate to your backend by typing `cd backend`.
-All libraries was pre-installled for Flask server, you just need to activate virtual env by typing `.\venv\Scripts\activate`.
-Next, to run your server, type `flask run --port=3000` into your terminal. Your server should start running on port 3000.
+ <h2>Screenshot</h2>
+<img src="screenshot.png"/>
 
-## Main Chatbot logic
-
-Message Handling: When a user submits a message, it checks for specific keywords like "info about my music" or "analyze my account" to determine the conversation type.
-
-Communication with Flask Backend: Constructs a POST request to the Flask backend, passing the conversation type and the last message from the chat history. It waits for the server's response and updates the state with the received data. Flask Backend Constructs a GET request to API then returns the JSON file to main app.js.
-
-
-Rendering: Renders the chat history, input field for new messages, and a button to send messages. Additionally, it renders a UI block component if there is data received from the server.
-
-## Approach:
-
-The development of the Chatbot application followed a systematic approach, involving the following steps:
-
-Requirement Analysis: Understanding the application's requirements, functionalities, and features.
-Technology Selection: Choosing React.js for the frontend and Flask for the backend.
-Component Design: Designing modular components using React for better maintainability and scalability.
-Integration: Integrating the frontend with the backend using asynchronous fetch requests.
-Testing: Conducting thorough testing, both manual and automated, to ensure functionality and responsiveness.
-Challenges Faced:
-Several challenges were encountered during development:
-
-Handling Asynchronous Operations: Managing asynchronous tasks, like fetching data, required careful synchronization.
-Cross-Origin Resource Sharing (CORS): Dealing with CORS issues when making requests between different domains.
-State Management: Ensuring consistent state across components for seamless user interaction.
-Error Handling: Implementing robust error handling to maintain a smooth user experience.
-Overcoming Challenges:
-To overcome these challenges, various strategies were employed:
-
-Thorough Planning: Planning and design helped anticipate challenges and devise appropriate solutions.
-Continuous Testing: Regular testing throughout development helped identify and address issues early.
-Community Resources: Leveraging online forums and documentation provided valuable insights and solutions.
+ <h2>Live Demo</h2>
+If you dont want to go through the hassle of running it locally, you can also access and play around with the app <a href='https://chatterbot-client.herokuapp.com/'>here</a>
